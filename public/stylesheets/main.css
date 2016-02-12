@@ -1,0 +1,143 @@
+html, body {
+  color: #222;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: #FFF;
+  padding-top: 120px;
+}
+
+a, a:hover {
+  color: #36D7B7;
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+.img-responsive {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.masthead {
+  background-color: #FFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  left: 0px;
+  overflow: hidden;
+  padding: 30px;
+  position: fixed;
+  right: 0px;
+  top: 0;
+}
+
+.brand {
+  border: 2px solid #36D7B7;
+  color: #36D7B7;
+  float: left;
+  font-family: "brandon-grotesque";
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.brand:hover {
+  background-color: #36D7B7;
+  color: #FFF;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 18px 0;
+}
+
+nav ul li {
+  float: left;
+  margin-left: 25px;
+}
+
+nav ul li a {
+  color: #222;
+  display: block;
+}
+
+.panel {
+  padding: 50px 30px;
+}
+
+.panel-intro, .panel-connect {
+  text-align: center;
+  padding: 120px 50px;
+}
+
+.panel-intro img {
+  margin: 0 auto 50px;
+  max-width: 398px;
+}
+
+section {
+  border-top: 1px solid #EEE;
+  padding: 80px 0;
+}
+
+section aside {
+  max-width: 600px !important;
+  flex-basis: auto !important;
+  flex-grow: 1 !important;
+}
+
+article header {
+  color: #888;
+  font-family: monospace;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.chrome {
+  border: 1px solid #E9E9E9;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.panel-connect {
+  background-color: #222;
+  color: #FFF;
+}
+
+.panel-connect header {
+  color: #444;
+  font-family: monospace;
+  font-size: 2em;
+  font-weight: normal;
+  margin-bottom: 2em;
+}
+
+.social a {
+  color: #999;
+  font-size: 2em;
+  line-height: 1em;
+  margin: 0 20px;
+}
+
+.linkedin:hover {
+  color: #008CC9;
+}
+
+.github:hover, .mail:hover {
+  color: #FFF;
+}
+
+.twitter:hover {
+  color: #1DA1F2;
+}
