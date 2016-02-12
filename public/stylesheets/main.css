@@ -43,7 +43,7 @@ p a {
   border: 2px solid #36D7B7;
   color: #36D7B7;
   float: left;
-  font-family: "brandon-grotesque";
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
   padding: 15px;
@@ -98,7 +98,7 @@ section aside {
 
 article header {
   color: #888;
-  font-family: monospace;
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   font-weight: normal;
 }
@@ -117,7 +117,7 @@ article header {
 
 .panel-connect header {
   color: #444;
-  font-family: monospace;
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
   font-size: 2em;
   font-weight: normal;
   margin-bottom: 2em;
